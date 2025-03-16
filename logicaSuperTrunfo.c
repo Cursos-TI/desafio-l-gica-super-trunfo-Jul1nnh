@@ -72,8 +72,8 @@ int main() {
             break;
         case 2: // --- area ---
             printf("\n--- COMPARAÇÃO DAS CARTAS (ATRIBUTO: AREA) ---\n");
-            printf("\nCARTA 1 - %s: %.2f\n", cidade1, area1);
-            printf("CARTA 2 - %s: %.2f\n", cidade2, area2);
+            printf("\nCARTA 1 - %s: %.2f km²\n", cidade1, area1);
+            printf("CARTA 2 - %s: %.2f km²\n", cidade2, area2);
             
             if (area1 > area2) {
                 printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
@@ -85,8 +85,8 @@ int main() {
             break;
         case 3: // --- pib --- 
             printf("\n--- COMPARAÇÃO DAS CARTAS (ATRIBUTO: PIB) ---\n");
-            printf("\nCARTA 1 - %s: %.2f\n", cidade1, PIB1);
-            printf("CARTA 2 - %s: %.2f\n", cidade2, PIB2);
+            printf("\nCARTA 1 - %s: %.2f bilhões de reais\n", cidade1, PIB1);
+            printf("CARTA 2 - %s: %.2f bilhões de reais\n", cidade2, PIB2);
             
             if (PIB1 > PIB2) {
                 printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
@@ -111,8 +111,8 @@ int main() {
             break;
         case 5: // --- densidade populacional ---
             printf("\n--- COMPARAÇÃO DAS CARTAS (ATRIBUTO: DENSIDADE POPULACIONAL) ---\n");
-            printf("\nCARTA 1 - %s: %.2f\n", cidade1, DP1);
-            printf("CARTA 2 - %s: %.2f\n", cidade2, DP2);
+            printf("\nCARTA 1 - %s: %.2f hab/km²\n", cidade1, DP1);
+            printf("CARTA 2 - %s: %.2f hab/km²\n", cidade2, DP2);
             
             if (DP1 < DP2) {
                 printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
@@ -124,8 +124,8 @@ int main() {
             break;
         case 6: // --- pib per capita ---
             printf("\n--- COMPARAÇÃO DAS CARTAS (ATRIBUTO: PIB per CAPITA) ---\n");
-            printf("\nCARTA 1 - %s: %.2f\n", cidade1, PIBP1);
-            printf("CARTA 2 - %s: %.2f\n", cidade2, PIBP2);
+            printf("\nCARTA 1 - %s: %.2f reais\n", cidade1, PIBP1);
+            printf("CARTA 2 - %s: %.2f reais\n", cidade2, PIBP2);
             
             if (PIBP1 > PIBP2) {
                 printf("Resultado: Carta 1 (%s) venceu!\n", cidade1);
